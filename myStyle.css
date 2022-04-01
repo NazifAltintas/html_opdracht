@@ -1,0 +1,101 @@
+
+#wrapper {
+  max-width: 800px;
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 20%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: teal;
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  margin-right: 80%;
+}
+#para1 {
+  text-align: center;
+  color: rgb(94, 196, 236);
+  font-size: 160%;
+  font-weight: bold;
+}
+
+.list1 li {
+  color: black;
+  font-size: 130%;
+}
+
+.list1 li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.list1 li a:hover {
+  background-color: rgb(1, 35, 36);
+  color: white;
+}
+.main {
+  margin-left: 20%;
+  height: 100%; /* 100% Full-height */
+  width: 80%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-left: 20px;
+  background-color: rgb(156, 245, 245);
+}
+.main h1 {
+  color: teal;
+  margin-top: 0;
+  font-size: xxx-large;
+}
+
+.main img {
+  width: 200px;
+  height: 200px;
+  float: right;
+  padding-right: 40px;
+}
+.main q {
+  font-size: xx-large;
+  font-style: italic;
+}
+.main p {
+  font-size: large;
+  border: 2px solid powderblue;
+  margin-right: 40px;
+}
+.main ol {
+  font-size: large;
+}
+.main ul {
+  list-style-type: circle;
+}
+.table1 {
+  padding-right: 40px;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: black;
+  color: white;
+}
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: large;
+}
+tr:nth-child(even) {
+  background-color: #d6eeee;
+}
